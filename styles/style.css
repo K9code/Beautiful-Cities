@@ -1,0 +1,59 @@
+/* -----------------------------
+    
+        Default Values
+
+Font Ubuntu, sand Pacifico (Logo)
+
+Colors:
+    1. Imperial Primar:    #222f3e;
+    2. Wild Cariian green: #1dd1a;
+    3. Light gray color:   #fbfbfb;
+    4. Gray:               #ccc;
+
+--------------------------------/;
+
+/*------------------------------
+        Basoc Setup
+--------------------------------*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'ubuntu', sans-serif;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    background-color: #ffff;
+}
+
+/*------------------------------
+            Header
+--------------------------------*/
+
+body {
+    background-color: #fbfbfb;
+}
+
+.page-header {
+    background-color: #222f3e;
+    color: #fff;
+    font-family: 'Pacifico', cursive; 
+    padding-left: 70px;
+}
+
+
